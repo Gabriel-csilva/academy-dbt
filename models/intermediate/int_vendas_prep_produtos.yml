@@ -1,0 +1,42 @@
+models:
+  - name: int_vendas_prep_produtos
+    description: Modelo que enriqeuce os dados de produtos com caegoria e fornecedor 
+    columns:
+      - name: PK_PRODUTO
+        description: PARA PREENCHER
+        data_tests:
+          - unique
+          - not_null
+
+      - name: NOME_PRODUTO
+        description: PARA PREENCHER
+
+      - name: QUANTIDADE_POR_UNIDADE
+        description: PARA PREENCHER
+
+      - name: PRECO_POR_UNIDADE
+        description: PARA PREENCHER
+
+      - name: UNIDADE_EM_ESTOQUE
+        description: PARA PREENCHER
+
+      - name: UNIDADE_POR_PEDIDO
+        description: PARA PREENCHER
+
+      - name: NIVER_DE_PEDIDO
+        description: PARA PREENCHER
+
+      - name: DISCONTINUADO
+        description: PARA PREENCHER
+
+      - name: NOME_CATEGORIA
+        description: PARA PREENCHER
+
+      - name: NOME_FORNECEDOR
+        description: PARA PREENCHER
+
+      - name: CIDADE_FORNECEDOR
+        description: PARA PREENCHER
+
+      - name: PAIS_FORNECDOR
+        description: PARA PREENCHER
